@@ -8,8 +8,9 @@ extern "C" {
 #endif 
 
 typedef enum {
-    // DON'T CHANGE THIS VALUE!
     ERROR_SUCCESS = 0,
+    ERROR_NULL_POINTER,
+    ERROR_MATRIX_INVALID_OPERATION,
 } ErrorCode;
 
 /**

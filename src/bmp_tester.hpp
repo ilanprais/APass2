@@ -22,7 +22,6 @@ void rotate_image(const std::string& imagePath, const std::string& outputPath);
  * @param imagePath Path of a BMP image that should be rotated.
  * @param outputPath Path of the resulting BMP image.
  */
-void convert_to_grayscale(const std::string& imagePath,
-                        const std::string& outputPath);
+void convert_to_grayscale(const std::string& imagePath, const std::string& outputPath);
 }
 }
